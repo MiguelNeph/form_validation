@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Validation Form</h1><br/>
+        <p>
+            <h2>Submit 2 values in the fields below.</h2><br/>
+            <h2>Value in field A must be higher than value on field B. Other wise an error message will appear.</h2>
+        </p>
+        <form id="form-deposit">
+                <input type="number" id="valueA" required placeholder="Value of field A" />
+                <input type="number" id="valueB" required placeholder="Value of field B" />
+                <button id="button-submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
